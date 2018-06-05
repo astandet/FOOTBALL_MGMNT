@@ -9,3 +9,13 @@ Players
 -------
 
 Players should be stored in a database, like: PostgreSQL and ideally there should be a community-based system, whereby members of public could update the database with real players data. Alternatively, player names and statistics can be auto-generated. 
+
+AI
+--
+
+A computer controlled team should be able to maintain quality in the long run. It means that it shouldn't be possible for a well-established team, like FC Barcelona, to deteriorate within a few seasons to an average team, let alone one that is fighting relegation.
+
+Dirty Hacks
+------------
+
+Computer managers shouldn't be able to use "special features" within the game, that are not available to human managers, thus compensating for inadequate AI.
