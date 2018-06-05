@@ -55,6 +55,7 @@ int main(int argc, char* argv[])
 	pirdek(zebi);
 	cout<<endl;
 	pirdek(zebi);
+	//testing commiting github changes
 
 	SDL_Quit();
 
