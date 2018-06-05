@@ -8,7 +8,8 @@ The game engine will take into consideration factors such as: current quality of
 Players
 -------
 
-Players should be stored in a database, like: PostgreSQL and ideally there should be a community-based system, whereby members of public could update the database with real players data. Alternatively, player names and statistics can be auto-generated. 
+Players data should be stored in a database, like: PostgreSQL and ideally there should be a community-based system, whereby members of public could update the database with real players data. Alternatively, player names and statistics can be auto-generated. 
+  Players should be recirculated in such a way, that quality distribution between teams should at all times resemble (to some pre-defined extent) that from the beginning of the game.
 
 AI
 --
