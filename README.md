@@ -18,4 +18,4 @@ A computer controlled team should be able to maintain quality in the long run. I
 Dirty Hacks
 ------------
 
-Computer managers shouldn't be able to use "special features" within the game, that are not available to human managers, thus compensating for inadequate AI.
+Computer managers shouldn't be able to use "special features" within the game, that are not available to human managers, as a way of compensation for inadequate AI.
