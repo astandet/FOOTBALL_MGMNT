@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <SDL.h>
 #include <pqxx/pqxx>
+#include <iostream>
+#include <stdexcept>
 #include "Player.h"
 #include "sdl.h"
+
+using namespace std;
+using namespace pqxx;
 
 extern SDL_Window* window;
 extern SDL_Surface* WindowSurface;
@@ -19,6 +24,26 @@ int main(int argc, char* argv[])
 	SDL_BlitSurface(s_media,NULL,WindowSurface,NULL);
 	SDL_UpdateWindowSurface(window);
 	SDL_Delay(5000);
+	try
+	{
+		connection Conn("dbname=footballworld user=supermgr password=12345 hostaddr=127.0.0.1 port=5432");
+		if(Conn.is_open())
+		{
+			cout<<"There you go, mate: "<<Conn.dbname()<<" opened for your enjoyment!"<<endl;
+		}
+		else
+		{
+			cout<<"Can't open database"<<endl;
+			return 1;
+		}
+
+	Conn.disconnect();
+	}
+	catch(const std::exception &e)
+	{
+		cerr<<e.what()<<endl;
+		return 1;
+	}
 	close();
 	return 0;
 }
