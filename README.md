@@ -21,3 +21,8 @@ Dirty Hacks
 ------------
 
 Computer managers shouldn't be able to use "special features" within the game, that are not available to human managers, as a way of compensation for inadequate AI.
+
+Tactics
+-------
+
+IA controlled teams will adopt tactics based on range of factors, including analysis of opponent's strengths and weaknesses, number of players (red cards, etc), and other factors.
