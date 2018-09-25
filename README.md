@@ -25,4 +25,4 @@ Computer managers shouldn't be able to use "special features" within the game, t
 Tactics
 -------
 
-IA controlled teams will adopt tactics based on range of factors, including analysis of opponent's strengths and weaknesses, number of players (red cards, etc), and other factors.
+IA controlled teams will adopt tactics based on a range of factors, including analysis of opponent's strengths and weaknesses, number of players (red cards, etc), and other factors and will change tactics during the course of a match in reaction to match events. There will be a predefined set of formations for both computer and human managers to choose from, plus human managers will have the ability to create custom formations and save them to file.
